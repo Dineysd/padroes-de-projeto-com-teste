@@ -1,0 +1,20 @@
+package com.projeto.padroesdeprojetocomteste.adapter.strategy;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.projeto.padroesdeprojetocomteste.adapter.IProduto;
+
+public class ExibidorProdutosComPromocao implements StrategyExibicaoProdutos {
+
+    @Override
+    public List<String> exibirProdutos(List<IProduto> produtos) {
+        List<String> listaProdutos = new ArrayList<>();
+        for (IProduto produto : produtos) {
+            double valorComDesconto = produto.getPreco() * (1 - produto.getPercentual()/100);
+            String descricao = produto.getDescricao() + " - " + produto.getPreco() + " (Promoção: " + produto.getPercentual() + "% de desconto)";
+            listaProdutos.add(descricao);
+        }
+        return listaProdutos;
+    }
+}
+
