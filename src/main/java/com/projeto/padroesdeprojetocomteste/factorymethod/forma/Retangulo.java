@@ -1,4 +1,4 @@
-package com.projeto.padroesdeprojetocomteste.factorymethod;
+package com.projeto.padroesdeprojetocomteste.factorymethod.forma;
 
 public class Retangulo extends Forma{
     private double base;

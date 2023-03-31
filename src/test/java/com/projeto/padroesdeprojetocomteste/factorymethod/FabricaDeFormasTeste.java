@@ -4,6 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import com.projeto.padroesdeprojetocomteste.factorymethod.fabrica.FabicaDeFormaDeCirculos;
+import com.projeto.padroesdeprojetocomteste.factorymethod.fabrica.FabricaDeFormaDeQuadrados;
+import com.projeto.padroesdeprojetocomteste.factorymethod.fabrica.FabricaDeFormaDeRetangulos;
+import com.projeto.padroesdeprojetocomteste.factorymethod.fabrica.FabricaDeFormas;
+import com.projeto.padroesdeprojetocomteste.factorymethod.forma.Forma;
+
 public class FabricaDeFormasTeste {
     @Test
     public void testeCriarRetangulo(){

@@ -1,4 +1,4 @@
-package com.projeto.padroesdeprojetocomteste.factorymethod;
+package com.projeto.padroesdeprojetocomteste.factorymethod.forma;
 
 public class Circulo extends Forma {
     private double raio;
