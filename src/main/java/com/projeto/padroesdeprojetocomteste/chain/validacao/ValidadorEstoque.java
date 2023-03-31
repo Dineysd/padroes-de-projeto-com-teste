@@ -10,7 +10,7 @@ public class ValidadorEstoque extends ValidadorPedido {
     protected boolean realizarValidacao(Pedido pedido) {
         // verificar se há estoque suficiente para o pedido
 
-        if(pedido == null && pedido.getItens().isEmpty()) return false;
+        if(pedido == null || pedido != null && pedido.getItens().isEmpty()) return false;
             
         for (ItemPedido item : pedido.getItens()) {
             if (!pedido.getEstoque().containsKey(item.getProduto().getNome()) || 
