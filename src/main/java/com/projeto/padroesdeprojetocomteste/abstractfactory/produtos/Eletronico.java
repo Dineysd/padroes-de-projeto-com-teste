@@ -1,4 +1,4 @@
-package com.projeto.padroesdeprojetocomteste.abstractfactory;
+package com.projeto.padroesdeprojetocomteste.abstractfactory.produtos;
 
 public class Eletronico extends Produto{
     private String marca;

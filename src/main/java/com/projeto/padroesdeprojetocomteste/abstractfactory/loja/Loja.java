@@ -1,4 +1,7 @@
-package com.projeto.padroesdeprojetocomteste.abstractfactory;
+package com.projeto.padroesdeprojetocomteste.abstractfactory.loja;
+
+import com.projeto.padroesdeprojetocomteste.abstractfactory.fabrica.FabricaDeProdutos;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.produtos.Produto;
 
 public class Loja {
     private FabricaDeProdutos produtoDaFabrica;

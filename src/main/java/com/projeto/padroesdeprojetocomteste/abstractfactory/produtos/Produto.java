@@ -1,4 +1,4 @@
-package com.projeto.padroesdeprojetocomteste.abstractfactory;
+package com.projeto.padroesdeprojetocomteste.abstractfactory.produtos;
 
 public abstract class Produto {
     protected String nome;

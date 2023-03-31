@@ -5,6 +5,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import com.projeto.padroesdeprojetocomteste.abstractfactory.fabrica.FabricaDeEletronicos;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.fabrica.FabricaDeLivros;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.fabrica.FabricaDeMoveisPlanejado;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.fabrica.FabricaDeProdutos;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.loja.Loja;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.produtos.Eletronico;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.produtos.Livro;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.produtos.MovelPlanejado;
+import com.projeto.padroesdeprojetocomteste.abstractfactory.produtos.Produto;
+
 public class TesteVendaProdutos {
     @Test
     public void testeVendaDeLivros(){
