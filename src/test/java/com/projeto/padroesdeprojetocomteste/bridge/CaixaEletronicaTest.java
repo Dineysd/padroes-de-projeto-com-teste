@@ -1,4 +1,4 @@
-package com.projeto.padroesdeprojetocomteste.brigge;
+package com.projeto.padroesdeprojetocomteste.bridge;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
